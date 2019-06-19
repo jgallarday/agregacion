@@ -1,0 +1,3 @@
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/cmake-build-debug/CMakeFiles/agregacion.dir

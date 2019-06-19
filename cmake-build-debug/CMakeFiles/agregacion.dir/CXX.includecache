@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Menu.cpp
+Menu.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Menu.h
+iostream
+-
+string
+-
+cstdio
+-
+
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Menu.h
+Tierra.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tierra.h
+Tipos.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tipos.h
+
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Objeto.h
+iostream
+-
+Tipos.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tipos.h
+
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tierra.h
+iostream
+-
+vector
+-
+Tipos.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tipos.h
+Objeto.h
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Objeto.h
+
+/Users/hildabermejo/Documents/@@@@Junio-18/agregacion 2/Tipos.h
+string
+-
+
