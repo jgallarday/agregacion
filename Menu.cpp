@@ -35,10 +35,12 @@ void Menu::imprimirMenu() {
 
 
 void Menu::agregarObjeto() {
-    TipoString    nombre = input<TipoString>("Ingrese Nombre : ");
-    TipoCaracter  color  = input<TipoCaracter>("Ingrese color (Un caracter): ");
+    auto    nombre = input<TipoString>("Ingrese Nombre : ");
+    auto color  = input<TipoCaracter>("Ingrese color (Un caracter): ");
 
-    TipoEntero x = input<TipoEntero>("Ingrese posicion X : ");
+    auto x = input<TipoEntero>("Ingrese posicion X : ");
+
+
     while (x < 0 || x >= tierra.getAncho()) {
         cout << "Posicion X Incorrecta, los limites son: 0, "
              << tierra.getAncho() - 1 << "\n";
@@ -56,7 +58,7 @@ void Menu::agregarObjeto() {
 }
 
 void Menu::removerObjeto() {
-    TipoString nombre = input<TipoString>("Ingrese Nombre: ");
+    auto nombre = input<TipoString>("Ingrese Nombre: ");
 
     Objeto* obj = tierra.removerObjeto(nombre);
     if (obj == nullptr) {
