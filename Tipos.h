@@ -6,6 +6,7 @@
 #define AGREGACION_TIPOS_H
 
 #include <string>
+#include <limits>
 using namespace std;
 // Definiendo alias
 using TipoEntero = int;
